@@ -9,5 +9,15 @@ package model;
  * @author Henri
  */
 public class Moderador {
+    private int IdModerador;
+    
+    public Moderador() {
+        this.IdModerador = 0;
+    }
+
+    public Moderador(int IdModerador) {
+        this.IdModerador = IdModerador;
+    } 
+    
     
 }

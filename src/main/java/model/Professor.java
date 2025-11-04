@@ -4,23 +4,29 @@
  */
 package model;
 
+import java.util.List;
+
 /**
  *
  * @author Henri
  */
 public class Professor extends Usuario {
-    private String cpf;
+    private int IdProfessor;
+    private List<Curso> listaCursosCadastrados;
+
     
     public Professor(){
-        super(); //chama o construtor da classe Pai              
-        this.cpf = "000.000.000-00";    
+        super();               
+        this.IdProfessor = 0;
     }
 
-    public Professor(String nome, char sexo, int idade, String cpf) {
-        super(nome, sexo, idade);
-        this.cpf = cpf;
+    public Professor(String nome, String email, String cpf, String telefone, String endereco, String login, String senha, int IdProfessor, List<Curso> listaCursosCadastrados) {
+        super(nome, email, cpf, telefone, endereco, login, senha);
+        this.IdProfessor = IdProfessor;
+        this.listaCursosCadastrados = listaCursosCadastrados;
     }
     
+    /*
     @Override
     public String toString(){        
         String txt =  
@@ -31,6 +37,7 @@ public class Professor extends Usuario {
         return txt;               
     }
 
+    
     @Override
     public boolean equals(Object obj) {
         Professor outro = (Professor) obj;
@@ -66,7 +73,7 @@ public class Professor extends Usuario {
         this.idade = Integer.parseInt(vetor[2]);
         this.cpf = vetor[3];
     }
-             
+    */        
 
     public String getCpf() {
         return cpf;

@@ -9,5 +9,7 @@ package model;
  * @author Henri
  */
 public class Compra {
-    
+    private double valor;
+    private Pagamento pagamento;
+    private boolean confirmacaoPagamento;
 }

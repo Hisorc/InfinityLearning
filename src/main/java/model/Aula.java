@@ -9,5 +9,8 @@ package model;
  * @author Henri
  */
 public class Aula {
+    private String nome;
+    private double duracao;
+    private Modulo modulo;
     
 }

@@ -9,5 +9,6 @@ package model;
  * @author Henri
  */
 public class Material {
-    
+    private String tipo;
+    private String titulo;
 }

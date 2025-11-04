@@ -4,10 +4,13 @@
  */
 package model;
 
+import java.util.List;
+
 /**
  *
  * @author Henri
  */
 public class Modulo {
-    
+        private List<Aula> listaAulas;
+
 }

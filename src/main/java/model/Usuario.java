@@ -10,22 +10,34 @@ package model;
  */
 public class Usuario {
     protected String nome;
-    protected char sexo;
-    protected int idade;
+    protected String email;
+    protected String cpf;
+    protected String telefone;
+    protected String endereco;
+    protected String login;
+    protected String senha;
+    
 
     public Usuario() {
         this.nome = "";
-        this.sexo = ' ';
-        this.idade = 0;
+        this.email = "";
+        this.cpf = "";
+        this.telefone = "";
+        this.login = "";
+        this.senha = "";
     }
 
-    public Usuario(String nome, char sexo, int idade) {
+    public Usuario(String nome, String email, String cpf, String telefone, String endereco, String login, String senha) {
         this.nome = nome;
-        this.sexo = sexo;
-        this.idade = idade;
+        this.email = email;
+        this.cpf = cpf;
+        this.telefone = telefone;
+        this.endereco = endereco;
+        this.login = login;
+        this.senha = senha;
     } 
 
-    @Override
+    /*@Override
     public String toString() {
         String txt = "Nome: " + this.nome +"\n"
         +"Sexo: "+ this.sexo + "\n"
@@ -45,35 +57,69 @@ public class Usuario {
         
         return true;
     }
+    */
     
     public String getNome() {
         return nome;
     }
 
-    
     public void setNome(String nome) {
         this.nome = nome;
     }
 
     
-    public char getSexo() {
-        return sexo;
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     
-    public void setSexo(char sexo) {
-        this.sexo = sexo;
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
     }
 
     
-    public int getIdade() {
-        return idade;
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+   
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
     }
 
     
-    public void setIdade(int idade) {
-        this.idade = idade;
+    public String getLogin() {
+        return login;
     }
-           
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+
 }
 

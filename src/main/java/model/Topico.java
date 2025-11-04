@@ -4,10 +4,16 @@
  */
 package model;
 
+import java.util.List;
+
 /**
  *
  * @author Henri
  */
 public class Topico {
-    
+    private String titulo;
+    private String autor;
+    private String texto;
+    private List<Comentarios> listaComentarios;
+
 }
