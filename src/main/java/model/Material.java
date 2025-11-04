@@ -11,4 +11,27 @@ package model;
 public class Material {
     private String tipo;
     private String titulo;
+
+    public Material(String tipo, String titulo) {
+        this.tipo = tipo;
+        this.titulo = titulo;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+    
+    
 }

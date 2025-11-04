@@ -9,6 +9,7 @@ package model;
  * @author Henri
  */
 public class Usuario {
+
     protected String nome;
     protected String email;
     protected String cpf;
@@ -16,7 +17,6 @@ public class Usuario {
     protected String endereco;
     protected String login;
     protected String senha;
-    
 
     public Usuario() {
         this.nome = "";
@@ -35,30 +35,8 @@ public class Usuario {
         this.endereco = endereco;
         this.login = login;
         this.senha = senha;
-    } 
-
-    /*@Override
-    public String toString() {
-        String txt = "Nome: " + this.nome +"\n"
-        +"Sexo: "+ this.sexo + "\n"
-        +"Idade: "+ this.idade+"\n";
-        return txt;
-    }   
-    
-    @Override
-    public boolean equals(Object obj) {
-        Usuario outro = (Usuario) obj;
-        if(!this.nome.equals(outro.getNome()))
-            return false;
-        else if(this.idade != outro.getIdade())
-            return false;
-        else if(this.sexo != outro.getSexo())
-            return false;
-        
-        return true;
     }
-    */
-    
+
     public String getNome() {
         return nome;
     }
@@ -67,7 +45,6 @@ public class Usuario {
         this.nome = nome;
     }
 
-    
     public String getEmail() {
         return email;
     }
@@ -76,7 +53,6 @@ public class Usuario {
         this.email = email;
     }
 
-    
     public String getCpf() {
         return cpf;
     }
@@ -85,7 +61,6 @@ public class Usuario {
         this.cpf = cpf;
     }
 
-    
     public String getTelefone() {
         return telefone;
     }
@@ -94,7 +69,6 @@ public class Usuario {
         this.telefone = telefone;
     }
 
-   
     public String getEndereco() {
         return endereco;
     }
@@ -103,7 +77,6 @@ public class Usuario {
         this.endereco = endereco;
     }
 
-    
     public String getLogin() {
         return login;
     }
@@ -112,7 +85,6 @@ public class Usuario {
         this.login = login;
     }
 
-    
     public String getSenha() {
         return senha;
     }
@@ -122,4 +94,3 @@ public class Usuario {
     }
 
 }
-

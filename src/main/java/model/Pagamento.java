@@ -11,4 +11,27 @@ package model;
 public class Pagamento {
     private String metodoPagamento;
     private boolean statusPagamento;
+
+    public Pagamento(String metodoPagamento, boolean statusPagamento) {
+        this.metodoPagamento = metodoPagamento;
+        this.statusPagamento = statusPagamento;
+    }
+
+    public String getMetodoPagamento() {
+        return metodoPagamento;
+    }
+
+    public void setMetodoPagamento(String metodoPagamento) {
+        this.metodoPagamento = metodoPagamento;
+    }
+
+    public boolean isStatusPagamento() {
+        return statusPagamento;
+    }
+
+    public void setStatusPagamento(boolean statusPagamento) {
+        this.statusPagamento = statusPagamento;
+    }
+    
+    
 }

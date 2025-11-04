@@ -11,6 +11,19 @@ import java.util.List;
  * @author Henri
  */
 public class Biblioteca {
-        private List<Material> listaMateriais;
+
+    private List<Material> listaMateriais;
+
+    public Biblioteca(List<Material> listaMateriais) {
+        this.listaMateriais = listaMateriais;
+    }
+
+    public List<Material> getListaMateriais() {
+        return listaMateriais;
+    }
+
+    public void setListaMateriais(List<Material> listaMateriais) {
+        this.listaMateriais = listaMateriais;
+    }
 
 }

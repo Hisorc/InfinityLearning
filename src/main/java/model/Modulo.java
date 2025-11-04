@@ -11,6 +11,43 @@ import java.util.List;
  * @author Henri
  */
 public class Modulo {
-        private List<Aula> listaAulas;
+
+    private String titulo;
+    private int quantidadeAulas;
+    private List<Aula> listaAulas;
+
+    public Modulo(String titulo, int quantidadeAulas, List<Aula> listaAulas) {
+        this.titulo = titulo;
+        this.quantidadeAulas = quantidadeAulas;
+        this.listaAulas = listaAulas;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public int getQuantidadeAulas() {
+        return quantidadeAulas;
+    }
+
+    public void setQuantidadeAulas(int quantidadeAulas) {
+        this.quantidadeAulas = quantidadeAulas;
+    }
+
+    public Modulo(List<Aula> listaAulas) {
+        this.listaAulas = listaAulas;
+    }
+
+    public List<Aula> getListaAulas() {
+        return listaAulas;
+    }
+
+    public void setListaAulas(List<Aula> listaAulas) {
+        this.listaAulas = listaAulas;
+    }
 
 }
