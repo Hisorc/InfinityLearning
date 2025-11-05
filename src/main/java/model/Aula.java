@@ -12,12 +12,10 @@ public class Aula {
 
     private String nome;
     private double duracao;
-    private Modulo modulo;
 
     public Aula(String nome, double duracao, Modulo modulo) {
         this.nome = nome;
         this.duracao = duracao;
-        this.modulo = modulo;
     }
 
     public String getNome() {
@@ -34,14 +32,6 @@ public class Aula {
 
     public void setDuracao(double duracao) {
         this.duracao = duracao;
-    }
-
-    public Modulo getModulo() {
-        return modulo;
-    }
-
-    public void setModulo(Modulo modulo) {
-        this.modulo = modulo;
     }
 
 }

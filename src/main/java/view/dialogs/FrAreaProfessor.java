@@ -42,11 +42,11 @@ public class FrAreaProfessor extends javax.swing.JDialog {
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("AREA PROFESSOR");
 
-        jButton1.setText("jButton1");
+        jButton1.setText("Enter");
 
-        jButton2.setText("jButton2");
+        jButton2.setText("Enter");
 
-        jButton3.setText("jButton3");
+        jButton3.setText("Enter");
 
         jLabel2.setText("Cadastro Curso");
 
@@ -54,7 +54,7 @@ public class FrAreaProfessor extends javax.swing.JDialog {
 
         jLabel4.setText("Cadastro Provas");
 
-        jButton4.setText("jButton4");
+        jButton4.setText("Enter");
 
         jLabel5.setText("Acesso Forum");
 

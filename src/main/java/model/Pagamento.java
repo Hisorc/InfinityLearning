@@ -9,6 +9,7 @@ package model;
  * @author Henri
  */
 public class Pagamento {
+
     private String metodoPagamento;
     private boolean statusPagamento;
 
@@ -32,6 +33,5 @@ public class Pagamento {
     public void setStatusPagamento(boolean statusPagamento) {
         this.statusPagamento = statusPagamento;
     }
-    
-    
+
 }

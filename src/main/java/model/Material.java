@@ -9,6 +9,7 @@ package model;
  * @author Henri
  */
 public class Material {
+
     private String tipo;
     private String titulo;
 
@@ -32,6 +33,5 @@ public class Material {
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
-    
-    
+
 }
