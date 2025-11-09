@@ -13,7 +13,7 @@ public class Aula {
     private String nome;
     private double duracao;
 
-    public Aula(String nome, double duracao, Modulo modulo) {
+    public Aula(String nome, double duracao) {
         this.nome = nome;
         this.duracao = duracao;
     }

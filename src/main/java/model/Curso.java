@@ -15,13 +15,12 @@ public class Curso {
     private String nome;
     private String categoria;
     private String Duracao;
-    private List<Modulo> listaModulos;
 
-    public Curso(String nome, String categoria, String Duracao, List<Modulo> listaModulos) {
+    public Curso(String nome, String categoria, String Duracao) {
         this.nome = nome;
         this.categoria = categoria;
         this.Duracao = Duracao;
-        this.listaModulos = listaModulos;
+
     }
 
     public String getNome() {
@@ -46,14 +45,6 @@ public class Curso {
 
     public void setDuracao(String Duracao) {
         this.Duracao = Duracao;
-    }
-
-    public List<Modulo> getListaModulos() {
-        return listaModulos;
-    }
-
-    public void setListaModulos(List<Modulo> listaModulos) {
-        this.listaModulos = listaModulos;
     }
 
 }
